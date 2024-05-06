@@ -17,14 +17,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "26197201"))
+API_HASH = int(getenv("API_HASH", "a7a18caa3f43d981e49af1af9fbac980"))
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = int(getenv("BOT_TOKEN", "6346466600:AAGjfPWOuWyBAGHD0hkohxnFNrpG5p0zub8"))
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = int(getenv("MONGO_DB_URI", "mongodb+srv://kuttyangel:onlydusky@cluster0.nzfa4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+"))
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -67,10 +68,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/DuskysUpdates
+)  # Example:- https://t.me/Duskyupdates
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/DuskysSupport
+)  # Example:- https://t.me/Dusky_Joe
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
