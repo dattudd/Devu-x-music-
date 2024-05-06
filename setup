@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "DuskyMusicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/DuskyMusic/DuskyMusicBot &&  cd DuskyMusicBot
+	git clone https://github.com/DuskyMusicTg/DuskyMusicBot &&  cd DuskyMusicBot
 }
 
 
@@ -108,14 +108,14 @@ sleep 4
 clear
 
 pprint "\nEnter Your Values Below\n\n\n"
-pprint "API ID: "; color_reset; api_id = "12363338"
-pprint "\nAPI HASH: "; color_reset; api_hash = "4bd85e3e1269e3b06557ebfd67418319"
-pprint "\nBOT TOKEN: "; color_reset; bot_token = "5698584696:AAHIPgUHW0YFUZILF5bkh4ncyOcEJelN4VY"
+pprint "API ID: "; color_reset; api_id = "26197201"
+pprint "\nAPI HASH: "; color_reset; api_hash = "a7a18caa3f43d981e49af1af9fbac980"
+pprint "\nBOT TOKEN: "; color_reset; bot_token = "6346466600:AAGjfPWOuWyBAGHD0hkohxnFNrpG5p0zub8"
 pprint "\nMONGO DB URI: "; color_reset; mongo_db = "mongodb+srv://kuttyangel:onlydusky@cluster0.nzfa4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-pprint "\nLOG GROUP ID: "; color_reset; logger = "-1001889152773"
-pprint "\nPYROGRAM STRING SESSION OF ASSISTANT ACCOUNT: "; color_reset; string_session = "BQC5JVsr14pKGRTpU2GE-sqrPy1oUGv13wTXkrwSclLoTDFcl7WrKvsxQ2VXbuAFkPXmeAgI37DqPUcEjZdcScaKBhCt6gc1_wBYz1-r4C73B9sl_slvE3E-kjfNbdBM4AVwngP40xeuFBLmO3NAIgrqvpzizuEth_d993bMhNoJe0ClrWSqFsy9jKX27Z1F1INm3b5bgbMvUK7dx6Xrj4wuOfdZX8wQgLOj_GxKfR0yet-H4NYtTxdXMLbpx5GoAqtFToRNK42gYPFI5p8cxlPAgSOuHgoUJiNmTH4tLhdUnh_Thij8LWkhHnp7DCGpUgTD3f8fgqlkx6M87lniExb9AAAAAUkgyokA"
+pprint "\nLOG GROUP ID: "; color_reset; logger = "-1002016024861"
+pprint "\nPYROGRAM STRING SESSION OF ASSISTANT ACCOUNT: "; color_reset; string_session = "BQAih9DppwT86PYR2F7zOKjqkpvlxCGwX6kt7BkpD9B9Sa1dG3vH6IJaU1-gg52zThh4xkMkBhQo4BbHvXwD0sb0AzFAA3S0U82s430N2fRmheINtg50YPnKvz0GptkR_Jz2ldGEoCQwjCCU1QLO0IYZaT5ISTJSNN1VzunU42rinVjssclF0UViheBJLjeBWoMk-75Jxuj5rMKqivqi7yfsdk6W0Fd4W5ud1gTvCsP0RguVRdL5lSfCraQM0_rz4bpfLBOkJDF_fsvdBPcNyj4uwgprEqrK8sYWM2Ic7G9mCwMIfzoVOorv4mHqfPecnHU_o6K3_P7HLCRqNREqs0dYAAAAAXntjAAA"
 pprint "\nMUSIC BOT NAME: "; color_reset; mbt = "Kutty Angel"
-pprint "\nOwner Id:"; color_reset; read ownid = "5696423555"
+pprint "\nOwner Id:"; color_reset; read ownid = "6331652840"
 
 pprint "\n\nProcessing your vars, Wait a while!" "cgreen"
 
