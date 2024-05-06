@@ -37,14 +37,15 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002016024861"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "6331652840
+").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +57,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/DuskyMusic/DuskyMusicBot",
+    "https://github.com/DuskyMusicTg/DuskyMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -135,7 +136,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate Pyogram String Session.
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAih9DppwT86PYR2F7zOKjqkpvlxCGwX6kt7BkpD9B9Sa1dG3vH6IJaU1-gg52zThh4xkMkBhQo4BbHvXwD0sb0AzFAA3S0U82s430N2fRmheINtg50YPnKvz0GptkR_Jz2ldGEoCQwjCCU1QLO0IYZaT5ISTJSNN1VzunU42rinVjssclF0UViheBJLjeBWoMk-75Jxuj5rMKqivqi7yfsdk6W0Fd4W5ud1gTvCsP0RguVRdL5lSfCraQM0_rz4bpfLBOkJDF_fsvdBPcNyj4uwgprEqrK8sYWM2Ic7G9mCwMIfzoVOorv4mHqfPecnHU_o6K3_P7HLCRqNREqs0dYAAAAAXntjAAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
